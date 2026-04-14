@@ -22,10 +22,12 @@ class MyApp extends StatelessWidget {
         initialBinding: Binding(),
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-            appBarTheme: AppBarTheme(
-                color: Theme.of(context).scaffoldBackgroundColor,
-                centerTitle: true,
-                elevation: 0)),
+          appBarTheme: AppBarTheme(
+            backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+            centerTitle: true,
+            elevation: 0,
+          ),
+        ),
         home: const ChooseWebsiteScreen(),
       ),
     );

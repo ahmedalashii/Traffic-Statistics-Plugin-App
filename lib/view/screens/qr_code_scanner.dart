@@ -2,12 +2,12 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:device_info/device_info.dart';
+import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:qr_code_scanner_plus/qr_code_scanner_plus.dart';
 
-import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:trafic_static_app/constants/colors.dart';
 import 'package:trafic_static_app/controllers/qr_controller.dart';
 import 'package:trafic_static_app/core/cache_controller.dart';

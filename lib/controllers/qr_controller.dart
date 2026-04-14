@@ -6,10 +6,10 @@ import 'package:trafic_static_app/core/network/dio_helper.dart';
 class QrController extends GetxController{
 
   static Future<void> saveDeviceData({
-    required String deviceId,
-    required String deviceName,
-    required String deviceModel,
-    required String userId,
+    required String? deviceId,
+    required String? deviceName,
+    required String? deviceModel,
+    required String? userId,
   }) async {
     DioHelper.init();
     await DioHelper.postData(
