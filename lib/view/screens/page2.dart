@@ -55,7 +55,9 @@ class _Page2State extends State<Page2> {
                       children: [
                         TileLayer(
                           urlTemplate:
-                              "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                              "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                          userAgentPackageName:
+                              'com.codepress.trafic.trafic_static_app',
                           subdomains: ['a', 'b', 'c'],
                         ),
                         MarkerLayer(
